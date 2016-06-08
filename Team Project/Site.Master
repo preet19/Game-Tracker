@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Team_Project.Site" %>
+
+<!DOCTYPE html>
+    <!-- 
+    Filename = Site.Master
+    Author's name = Dilpreet Singh and Gurpanth singh
+    website = http://Project-ASP.azurewebsites.net/
+    file description = master file containing all the code for targted pages
+    -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Header Section -->
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    <!-- Body Section -->
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
